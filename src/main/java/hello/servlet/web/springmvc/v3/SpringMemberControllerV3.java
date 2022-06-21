@@ -38,7 +38,6 @@ public class SpringMemberControllerV3 {
         List<Member> members = memberRepository.findAll();
 
         model.addAttribute("members",members);
-
         return "members";
     }
 }
